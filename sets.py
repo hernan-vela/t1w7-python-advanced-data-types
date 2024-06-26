@@ -1,4 +1,4 @@
-# Creating a set
+Creating a set
 my_set = {1, 2, 3, 4}
 
 print(my_set)
@@ -11,21 +11,21 @@ print(my_set)
 my_set.remove(2)
 print(my_set)
 
-# Membership testing
+Membership testing
 print(2 in my_set)
 print(3 in my_set)
 
-# Set operations
+Set operations
 set_a = {1, 2, 3}
-set_b = {3, 4, 5}
+set_b = {3, 4, 6}
 
 print("----------")
 # Union
 union_value = set_a.union(set_b) 
-union_value = set_b.union(set_a) 
+# union_value = set_b.union(set_a) 
 print(union_value)
 
-# Intersection
+# Intersection. The intersection of two sets will be the same independetly of the order establish in the intruction.
 intersection_value = set_a.intersection(set_b)
 intersection_value = set_b.intersection(set_a)
 print(intersection_value)
